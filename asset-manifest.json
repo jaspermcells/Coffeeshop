@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/jaspermcells.github.io/Coffeeshop/static/css/main.6a0fe9c9.css",
+    "main.js": "/jaspermcells.github.io/Coffeeshop/static/js/main.de40fcd7.js",
+    "static/js/787.c93a2131.chunk.js": "/jaspermcells.github.io/Coffeeshop/static/js/787.c93a2131.chunk.js",
+    "static/media/coffeemain.png": "/jaspermcells.github.io/Coffeeshop/static/media/coffeemain.48943cf5571e7234bc76.png",
+    "static/media/coffeeshop.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/coffeeshop.c93d2e3d71923bd8d5a1.jpg",
+    "static/media/coffee1-removebg-preview.png": "/jaspermcells.github.io/Coffeeshop/static/media/coffee1-removebg-preview.c1f646a6fb7433688fe7.png",
+    "static/media/coffee2-removebg-preview.png": "/jaspermcells.github.io/Coffeeshop/static/media/coffee2-removebg-preview.9e9797fb1326f5878a25.png",
+    "static/media/coffeeplace.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/coffeeplace.ae1632b71e0f86945df4.jpg",
+    "static/media/affogato.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/affogato.e367dbee682f9c2ac502.jpg",
+    "static/media/iced americano.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/iced americano.3184e8f2403bd4c808ae.jpg",
+    "static/media/coffeeendpage.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/coffeeendpage.013620458e49f97a3167.jpg",
+    "static/media/matcha.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/matcha.9e7bc2c4ffffcb575978.jpg",
+    "static/media/mocha coffee.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/mocha coffee.6687933607edab1f43f2.jpg",
+    "static/media/cafe latte.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/cafe latte.e662ef75babe55cbfab6.jpg",
+    "static/media/cappuccino.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/cappuccino.ffd6257a9d8fad2917b2.jpg",
+    "static/media/iced caramel.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/iced caramel.dbb379fc3ed49002aa6e.jpg",
+    "static/media/coffeeplace2.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/coffeeplace2.41dd7f44c2da4eddc110.jpg",
+    "static/media/spanish latte.jpg": "/jaspermcells.github.io/Coffeeshop/static/media/spanish latte.f87a76d12c84e7ff92c6.jpg",
+    "static/media/coffeemug.svg": "/jaspermcells.github.io/Coffeeshop/static/media/coffeemug.36783efe02fd65de89e3e9e364b153f3.svg",
+    "static/media/reshot-icon-twitter-4EAXDHGYM5.svg": "/jaspermcells.github.io/Coffeeshop/static/media/reshot-icon-twitter-4EAXDHGYM5.bbe109f66535263a50a317f8c09020f1.svg",
+    "static/media/highquality.svg": "/jaspermcells.github.io/Coffeeshop/static/media/highquality.e176c5543bcb585156377318591c78e3.svg",
+    "static/media/reshot-icon-instagram-DM5FP6S9N2.svg": "/jaspermcells.github.io/Coffeeshop/static/media/reshot-icon-instagram-DM5FP6S9N2.c79efded1e37a73145ae4dd8c37c0751.svg",
+    "static/media/logo.svg": "/jaspermcells.github.io/Coffeeshop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/reshot-icon-facebook-square-GCAE9R73J5.svg": "/jaspermcells.github.io/Coffeeshop/static/media/reshot-icon-facebook-square-GCAE9R73J5.861a19fa7c79c5e982df9e0f79a683c2.svg",
+    "static/media/slick.svg": "/jaspermcells.github.io/Coffeeshop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/coffeesvg.svg": "/jaspermcells.github.io/Coffeeshop/static/media/coffeesvg.ba1088022f1c52365863ddfb71f8ee08.svg",
+    "static/media/slick.eot": "/jaspermcells.github.io/Coffeeshop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/jaspermcells.github.io/Coffeeshop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/coffeemaker.svg": "/jaspermcells.github.io/Coffeeshop/static/media/coffeemaker.73530ea963203ad112e0f34dd674e887.svg",
+    "index.html": "/jaspermcells.github.io/Coffeeshop/index.html",
+    "static/media/beancoffee.svg": "/jaspermcells.github.io/Coffeeshop/static/media/beancoffee.736a896f48e73ae9154427291e4edbf9.svg",
+    "static/media/slick.woff": "/jaspermcells.github.io/Coffeeshop/static/media/slick.295183786cd8a1389865.woff",
+    "main.6a0fe9c9.css.map": "/jaspermcells.github.io/Coffeeshop/static/css/main.6a0fe9c9.css.map",
+    "main.de40fcd7.js.map": "/jaspermcells.github.io/Coffeeshop/static/js/main.de40fcd7.js.map",
+    "787.c93a2131.chunk.js.map": "/jaspermcells.github.io/Coffeeshop/static/js/787.c93a2131.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a0fe9c9.css",
+    "static/js/main.de40fcd7.js"
+  ]
+}
