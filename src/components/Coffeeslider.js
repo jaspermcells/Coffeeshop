@@ -31,7 +31,21 @@ const Coffeeslider = () => {
 	};
 
 	return (
-		<Slider
+		<div className="h-96 carousel carousel-vertical rounded-box">
+			<div className="carousel-item h-full">
+				<Affogato></Affogato>
+			</div>
+			<div className="carousel-item h-full">
+				<CafeLatte></CafeLatte>
+			</div>
+			<div className="carousel-item h-full">
+				<IcedAmericano></IcedAmericano>
+			</div>
+			<div className="carousel-item h-full">
+				<SpanishLatte></SpanishLatte>
+			</div>
+		</div>
+		/*	<Slider
 			{...settings}
 			className="custom-slider grid justify-center h-full w-full relative mb-20 z-0 lg:mb-2 xs:bottom-96 lg:bottom-0"
 		>
@@ -39,7 +53,7 @@ const Coffeeslider = () => {
 			<CafeLatte></CafeLatte>
 			<IcedAmericano></IcedAmericano>
 			<SpanishLatte></SpanishLatte>
-		</Slider>
+		</Slider> */
 	);
 };
 export default Coffeeslider;
