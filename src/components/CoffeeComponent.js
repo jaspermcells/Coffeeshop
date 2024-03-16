@@ -130,11 +130,7 @@ const CoffeeComponent = ({ onClick }) => {
 				What is your coffee order?
 			</h2>
 
-<<<<<<< HEAD
 			<div className=" w-3/4 lg:w-3/4 sm:w-full relative  h-3/4 lg:h-3/4 sm:h-full xs:top-[0px] top-0 lg:top-0 md:top-0 sm:top-0 ">
-=======
-			<div className=" w-3/4 lg:w-3/4 sm:w-full relative  h-3/4 lg:h-3/4 sm:h-full xs:top-[0] top-0 lg:top-0 md:top-0 sm:top-0 ">
->>>>>>> 2dc7edfa310f69c239ac1be1959a5948ed45385f
 				{" "}
 				{isSmallScreen ? <Coffeeslider /> : <Coffeecomponents />}
 			</div>

@@ -31,7 +31,6 @@ const Coffeeslider = () => {
 	};
 
 	return (
-<<<<<<< HEAD
 		<div className="h-96 carousel carousel-vertical rounded-box">
 			<div className="carousel-item h-full">
 				<Affogato></Affogato>
@@ -46,37 +45,6 @@ const Coffeeslider = () => {
 				<SpanishLatte></SpanishLatte>
 			</div>
 		</div>
-		/*	<Slider
-=======
-		/*<Slider
->>>>>>> 2dc7edfa310f69c239ac1be1959a5948ed45385f
-			{...settings}
-			className="custom-slider grid justify-center h-full h-full relative mb-20 z-0 lg:mb-2 xs:bottom-96 lg:bottom-0"
-		>
-			<Affogato></Affogato>
-			<CafeLatte></CafeLatte>
-			<IcedAmericano></IcedAmericano>
-			<SpanishLatte></SpanishLatte>
-<<<<<<< HEAD
-		</Slider> */
-=======
-		</Slider>/*/
-
-		<div className="h-96 carousel carousel-vertical rounded-box">
-			<div className="carousel-item h-full">
-				<Affogato></Affogato>
-			</div>
-			<div className="carousel-item h-full">
-				<CafeLatte></CafeLatte>
-			</div>
-			<div className="carousel-item h-full">
-				<IcedAmericano></IcedAmericano>
-			</div>
-			<div className="carousel-item h-full">
-				<SpanishLatte></SpanishLatte>
-			</div>
-		</div>
->>>>>>> 2dc7edfa310f69c239ac1be1959a5948ed45385f
 	);
 };
 export default Coffeeslider;
