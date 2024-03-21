@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 import icedamericano from "./pictures/iced americano.jpg";
 
@@ -96,10 +97,19 @@ const IcedAmericano = () => {
 						</div>
 					</div>
 					<div id="displayprice"> ${displayPrice}</div>
-					<button className=" bg-stone-100 w-1/2 grid ml-10 text-red-500 rounded-sm text-[12px] font-semibold p-1 transition-transform transform hover:scale-110  drop-shadow-2xl shadow-2xl shadow-black">
+					<motion.button
+						whileTap={{ scale: 0.9 }}
+						whileHover={{
+							scale: 1.1,
+							backgroundColor: "red",
+							color: "white",
+						}}
+						transition={{ bounceDamping: 10, bounceStiffness: 400 }}
+						className=" bg-stone-100 w-1/2 grid ml-10 text-red-500 rounded-sm text-[12px] font-semibold p-1 transition-transform transform hover:scale-110  drop-shadow-2xl shadow-2xl shadow-black"
+					>
 						{" "}
 						Order Now
-					</button>
+					</motion.button>
 				</div>
 			</div>
 		</div>

@@ -32,6 +32,7 @@ function App() {
 					</div>
 					<AboutPage />
 					<Endingpage />
+					<Trylang />
 				</div>
 			</React.Fragment>
 		</div>

@@ -1,31 +1,32 @@
-import React, { useState, useEffect } from "react";
+import { useRef } from "react";
+import { useInView } from "framer-motion";
 
-const ComponentOne = () => {
-	return <div className="bg-blue-200 p-4">Component Onedsadasds</div>;
-};
+function Section({ children }) {
+	const ref = useRef(null);
+	const isInView = useInView(ref, { once: true });
 
-const ComponentTwo = () => {
-	return <div className="bg-green-200 p-4">Component Twodsadsadsadsadasd</div>;
-};
-
-const Trylang = () => {
 	return (
-		<div className="card w-96 bg-base-100 shadow-xl">
-			<figure>
-				<img
-					src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-					alt="Shoes"
-				/>
-			</figure>
-			<div className="card-body">
-				<h2 className="card-title">Shoes!</h2>
-				<p>If a dog chews shoes whose shoes does he choose?</p>
-				<div className="card-actions justify-end">
-					<button className="btn btn-primary">Buy Now</button>
-				</div>
-			</div>
-		</div>
+		<section ref={ref}>
+			<span
+				style={{
+					transform: isInView ? "none" : "translateX(-200px)",
+					opacity: isInView ? 1 : 0,
+					transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+				}}
+			>
+				{children}
+			</span>
+		</section>
 	);
-};
+}
 
-export default Trylang;
+export default function App() {
+	return (
+		<>
+			<Section>Animate</Section>
+			<Section>when</Section>
+			<Section>in</Section>
+			<Section>view!</Section>
+		</>
+	);
+}

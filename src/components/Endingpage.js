@@ -4,6 +4,7 @@ import { ReactComponent as Coffeesvg } from "./pictures/coffeesvg.svg";
 import { ReactComponent as Instagram } from "./pictures/reshot-icon-instagram-DM5FP6S9N2.svg";
 import { ReactComponent as Twitter } from "./pictures/reshot-icon-twitter-4EAXDHGYM5.svg";
 import { ReactComponent as Facebook } from "./pictures/reshot-icon-facebook-square-GCAE9R73J5.svg";
+import AnimatedContainer from "./AnimatedContainer";
 const Endingpage = () => {
 	return (
 		<div className=" relative w-full h-auto bg-stone-900 pb-28 font-Poppins text-slate-200">
@@ -81,7 +82,7 @@ const Endingpage = () => {
 				 font-Poppins font-semibold text-lg"
 				>
 					{" "}
-					Recent News
+					Recent News <AnimatedContainer />
 				</div>
 			</div>
 			<div className="w-full border-t-teal-100 border-t">
